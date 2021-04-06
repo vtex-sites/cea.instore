@@ -4,7 +4,7 @@
   </a>
 </p>
 <h1 align="center">
-  VTEX SFJ minimal starter
+  C&A SFJ minimal starter
 </h1>
 
 ## 🚀 Quick start
