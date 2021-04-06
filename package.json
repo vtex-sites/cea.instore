@@ -1,8 +1,8 @@
 {
-  "name": "base.instore",
+  "name": "cea.instore",
   "version": "1.0.0",
   "private": true,
-  "description": "Base inStore",
+  "description": "C&A inStore",
   "author": "Guilherme Bruzzi",
   "keywords": [
     "gatsby",
@@ -21,11 +21,13 @@
     "lint:prettier": "prettier --write \"**/*.{js,jsx,ts,tsx,gql,json,yml,md}\""
   },
   "dependencies": {
-    "@vtexlab/gatsby-theme-instore-core": "^0.0.4",
+    "@vtex/gatsby-plugin-nginx": "^0.272.0",
+    "@vtexlab/gatsby-theme-instore-core": "0.0.21",
     "gatsby": "^2.32.2"
   },
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^4.14.1",
+    "@vtex/lighthouse-config": "^0.286.1",
     "@vtex/prettier-config": "^0.3.6",
     "@vtex/tsconfig": "^0.5.6",
     "eslint": "^7.18.0",
